@@ -1,0 +1,35 @@
+# Inspired by the great Alvin Alexander's sample .sbtignore file from here: https://alvinalexander.com/source-code/scala/sample-gitignore-file-scala-sbt-intellij-eclipse/
+# vs code
+.vscode
+
+# sbt
+bin/
+project/target
+target/
+build/
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+# general
+*.class
